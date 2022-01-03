@@ -1,0 +1,121 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    color: rgb(83, 99, 94);
+    background-color: rgb(252, 221, 164);
+    margin: 0;
+}
+header {
+   border: 4px blue solid ;
+   margin: 5px;
+   padding: 20px;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 150px;
+   background-color: rgb(252, 221, 164);
+ }
+ ul {
+   list-style-type: none;
+} 
+li a {
+   display: block;
+   color: rgb(83, 99, 94);
+   padding: 10px 30px;
+   text-decoration: none ;
+ }
+li a:hover {
+   background-color: rgb(8, 12, 248);
+   color: rgb(200, 200, 223);
+ }
+main {
+   border: 4px springgreen solid;
+   margin: 5px;
+} 
+footer {
+      background-color: rgb(206, 199, 199);
+      border: 4px rgb(61, 89, 168) solid;
+      margin: 5px;
+}
+img.photo {
+	border: 1px solid rgb(7, 6, 6);
+	background-color: #f5f1f1;
+	padding: 4px;
+} 
+.container {
+     width: 500px;
+     margin: auto;
+}  
+
+.box-1 {
+    background-color: rgb(224, 226, 72);
+    border-top: 5px blue solid;
+    border-bottom: 5px blue solid;
+    border-left: 3px blue double;
+    border-right: 3px blue double;
+
+    border: 5px solid blue, 3px blue double;
+
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+    padding: 10px, 5px;
+
+    margin: 20px;
+    text-align: center;
+
+
+}
+img.photo1 {
+    border: 1px solid rgb(12, 5, 5);
+    background-color: #f8db5b;
+    padding-top: 2px;
+}     
+   
+.font { 
+    font-family: 'Lobster', cursive;
+}
+.font1 {
+    font-family: 'Estonia', cursive;
+}
+header {
+    background-image: url("friese flag.png");
+    background-color: #cccccc;
+    height: 80px;
+    
+}
+
+h1 {
+    color: blanchedalmond;
+}
+
+form { 
+    text-align: center;
+    color: blue;
+}
+
+@media (max-width: 600px) { 
+
+    body {    color: rgb(85, 128, 141);
+             font-size: 17px;
+             line-height: 25px;
+ 
+         }
+ }
+ 
+ @media (min-width: 601px) { 
+ 
+     body { background-color: rgb(252, 221, 164); ; color: rgb(1, 1, 10);
+             font-size: 15px;
+             line-height: 30px;
+  
+     }
+
+ }
